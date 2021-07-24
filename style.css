@@ -182,27 +182,22 @@ footer{
 }
 }
 
-@media (max-width:600px){
-    .info{
-        margin-top: 4rem;
-    display:flex;
+@media (max-width:650px){
+.showcase .card{
+display: none;
+}
+ .flex .details{
+    flex-direction: row;
     flex-wrap: wrap;
-    }
-    
-   .container .testimonials{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-    }
-    .testimonial-image{
-        image-resolution: 5% 5%;
-    }
-    .flex-1{
-        flex-wrap:wrap;
-    }
-    .mx-1 .f-1{
-        display:none;
-    }
+}
+.icon{
+     font-size: 1.5rem;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+}
 }
 /* ******************** */
   /* Universal Styles */
