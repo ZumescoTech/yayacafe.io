@@ -195,6 +195,20 @@ footer{
 }
 
 @media (max-width:650px){
+    
+     body{
+        font-size: 1rem;
+        max-width: fit-content;
+    }
+    h1{
+       text-transform: uppercase;
+    }
+    .container{
+        width: 100%;
+        margin-left:auto;
+        margin-left: auto;
+       
+    }
 .showcase .card{
 display: none;
 }
