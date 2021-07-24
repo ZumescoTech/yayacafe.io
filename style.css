@@ -180,6 +180,18 @@ footer{
 .specials .flex{
     flex-wrap: wrap;
 }
+    /* testimonials  */
+
+   .container .testimonials{
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .testimonial-image{
+        image-resolution: 5% 5%;
+    }
+    .flex-1{
+        flex-wrap:wrap;
+    }
 }
 
 @media (max-width:650px){
