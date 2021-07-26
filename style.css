@@ -186,9 +186,7 @@ display: grid;
 grid-template-columns: repeat(2, 1fr);
 }
 
-
-/* testimonials  */
-
+    /* testimonials  */
    .container .testimonials{
       display: grid;
       grid-template-columns: auto;
@@ -202,11 +200,11 @@ grid-template-columns: repeat(2, 1fr);
 }
 
 @media (max-width:650px){
-    body{
+    
+     body{
         font-size: 1rem;
-        line-height: 0.9;
         max-width: fit-content;
-        
+
     }
     h1{
        text-transform: uppercase;
@@ -247,6 +245,20 @@ grid-template-columns: repeat(2, 1fr);
         flex-wrap: wrap;
     }
  
+ .flex .details{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.icon{
+     font-size: 1.5rem;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+}
+
+
 }
 
 
