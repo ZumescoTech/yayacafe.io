@@ -219,22 +219,30 @@ grid-template-columns: repeat(2, 1fr);
     }
 
     /* details section  */
+    .info-section{
+            align-items: center;
+            text-align: center;
+    }
     .info-section .grid-4{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
     } 
-    .details{
-        margin: 0;
-        padding: 0;
-    }
+    /* .details{
+        margin: 0.5rem;
+        padding: 0.25rem 0;
+    } */
     .details:nth-child(n){
-    margin:0.02rem;
+    margin:0.5rem 0 0.75rem 0;
+    padding: 0.25rem 0;
 
 }
 
     .icon{
         font-size: 1rem;
+    }
+    .details-text em{
+        display: none;
     }
     /* .specials */
     
